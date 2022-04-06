@@ -4,13 +4,13 @@ function grouping (User){
     
     for (let i = 1; i <= 100; i++){
         if (i % 2 === 0){
-            EvenGroup.push(i);
+            Groupone.push(i);
         }
         else{
-            OddGroup.push(i);
+            Grouptwo.push(i);
         }
     }
 
-    console.log("Total Number of OddGroup = " + Groupone.length)
-    console.log("Total Number of EvenGroup = " + Grouptwo.length)
+    console.log("Total Number of Groupone = " + Groupone.length)
+    console.log("Total Number of Grouptwo = " + Grouptwo.length)
 }
